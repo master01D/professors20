@@ -3,7 +3,7 @@ from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC
 aligner = Align.PairwiseAligner()
 aligner.mode = 'local'
-epitopes = 'C:/E-proteins epitope.txt'
+epitopes = 'C:/E-proteins epitope.txt' #Это эпитопы, которые мы хотим объединить
 topro = open(epitopes, "r")
 cont = topro.read()
 part = ''
