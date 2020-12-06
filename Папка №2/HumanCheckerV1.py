@@ -1,5 +1,5 @@
-epitopes = 'C:/sproteinsonecolumn.txt'
-lisu = "C:/UniprotHuman.txt"
+epitopes = 'C:/sproteinsonecolumn.txt' #Это эпитопы, которые мы хотим проверить на гомологичность с человеческими белками
+lisu = "C:/UniprotHuman.txt" #Это база данных белков человека Uniprot
 toproy = open(lisu, "r")
 conty = toproy.read()
 topro = open(epitopes, "r")
